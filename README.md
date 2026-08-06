@@ -189,9 +189,15 @@ My **first solo hackathon** build (GFG) — a Pokémon-themed task manager in va
 
 ---
 
-## 📊 GitHub Activity
+## 📊 Git Vitals
 
 <div align="center">
+
+<img src="https://img.shields.io/github/followers/Aadarsh-gupta0?label=Followers&style=for-the-badge&color=A970FF&labelColor=1a1b27&logo=github&logoColor=white" alt="Followers" />
+<img src="https://img.shields.io/github/stars/Aadarsh-gupta0?label=Total%20Stars&style=for-the-badge&color=22D3EE&labelColor=1a1b27&logo=github&logoColor=white" alt="Total stars" />
+<img src="https://komarev.com/ghpvc/?username=Aadarsh-gupta0&label=Profile%20Views&color=A970FF&style=for-the-badge" alt="Profile views" />
+
+<br/><br/>
 
 <img src="https://streak-stats.demolab.com?user=Aadarsh-gupta0&theme=tokyonight&hide_border=true&background=00000000&ring=A970FF&fire=22D3EE&currStreakLabel=A970FF" alt="GitHub streak stats" width="70%" />
 
@@ -217,10 +223,6 @@ CSS          ████░░░░░░░░░░░░░░░░░░�
 Other        ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    0.3%
 ```
 
-<br/>
-
-<img src="https://ghchart.rshah.org/A970FF/Aadarsh-gupta0" alt="Contribution chart" width="100%" />
-
 </details>
 
 ---
@@ -230,9 +232,9 @@ Other        ░░░░░░░░░░░░░░░░░░░░░░�
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aadarsh-gupta0/Aadarsh-gupta0/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Aadarsh-gupta0/Aadarsh-gupta0/output/github-contribution-grid-snake.svg" />
-  <img src="https://raw.githubusercontent.com/Aadarsh-gupta0/Aadarsh-gupta0/output/github-contribution-grid-snake.svg" alt="Snake eating my contribution graph" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aadarsh-gupta0/Aadarsh-gupta0/main/assets/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Aadarsh-gupta0/Aadarsh-gupta0/main/assets/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/Aadarsh-gupta0/Aadarsh-gupta0/main/assets/github-contribution-grid-snake.svg" alt="Snake eating my contribution graph" width="100%" />
 </picture>
 
 </div>
