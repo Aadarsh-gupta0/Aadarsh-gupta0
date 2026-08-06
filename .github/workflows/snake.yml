@@ -1,0 +1,49 @@
+name: Generate Snake Animation
+
+on:
+  schedule:
+    # Rebuild the snake every 12 hours so it stays in sync with new contributions
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    # Run as soon as this workflow itself lands on main, so the first
+    # snake is generated without waiting for the schedule.
+    paths:
+      - .github/workflows/snake.yml
+
+# Never let two runs push to the same branch at once
+concurrency:
+  group: snake-animation
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Generate snake animation from contribution grid
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/github-contribution-grid-snake.svg
+            assets/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Commit the regenerated snake
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-contribution-grid-snake.svg assets/github-contribution-grid-snake-dark.svg
+          if git diff --staged --quiet; then
+            echo "Snake unchanged — nothing to commit."
+          else
+            git commit -m "chore: regenerate contribution snake"
+            git push
+          fi
