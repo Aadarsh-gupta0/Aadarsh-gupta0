@@ -7,7 +7,7 @@
 <br/>
 
 <a href="https://linkedin.com/in/aadarshgupta01"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:aadarshgupta.ag2007@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="mailto:aadarshgupta.ag2006@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://instagram.com/aadarsh._.gupta01"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
 <a href="https://github.com/Aadarsh-gupta0?tab=repositories"><img src="https://img.shields.io/badge/Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="Projects" /></a>
 
@@ -248,7 +248,7 @@ Other        ░░░░░░░░░░░░░░░░░░░░░░�
 I'm open to **internships**, **freelance UI/UX work**, and **collaborative projects**.
 
 <a href="https://linkedin.com/in/aadarshgupta01"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" /></a>
-<a href="mailto:aadarshgupta.ag2007@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" alt="Email" /></a>
+<a href="mailto:aadarshgupta.ag2006@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" alt="Email" /></a>
 <a href="https://instagram.com/aadarsh._.gupta01"><img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" /></a>
 <a href="https://github.com/Aadarsh-gupta0"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" /></a>
 
