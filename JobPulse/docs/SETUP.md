@@ -91,6 +91,14 @@ feed populates from the seeded backend.
 `NSAllowsLocalNetworking` is set so plain HTTP works on your LAN. **Remove that
 key from `Info.plist` once you serve the API over HTTPS.**
 
+### Project layout
+
+`Config/` holds `JobPulse-Info.plist`, `NotificationService-Info.plist` and
+`JobPulse.entitlements`. They live outside the source folders on purpose — a
+plist sitting next to the Swift files can get swept into the app bundle's
+Resources phase, which fails the build with *"Multiple commands produce
+Info.plist"*.
+
 ### If the project ever breaks
 
 The `.xcodeproj` is committed and should just open. If you need to regenerate it:

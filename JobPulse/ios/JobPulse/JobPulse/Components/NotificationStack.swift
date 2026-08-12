@@ -102,9 +102,18 @@ struct NotificationStack: View {
     }
 
     private func card(for job: Job, at index: Int) -> some View {
-        SwipeableCard(
+        // Spelled out rather than `onDismiss.map { … }`: a closure returning a
+        // closure is a common place for type inference to give up.
+        let dismiss: (() -> Void)?
+        if let onDismiss {
+            dismiss = { onDismiss(job) }
+        } else {
+            dismiss = nil
+        }
+
+        return SwipeableCard(
             onSave: { onSave(job) },
-            onDismiss: onDismiss.map { handler in { handler(job) } },
+            onDismiss: dismiss,
             isEnabled: isExpanded || index == 0
         ) {
             JobNotificationCard(

@@ -3,31 +3,62 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A0000000000000000000040 /* JobPulseNotificationService.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000021 /* JobPulseNotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5A56557EA621AB4714FE7E28 /* CompanyAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C953F61B83AE4343BD1AECC3 /* CompanyAvatar.swift */; };
+		A3322C7769601D5CE2919056 /* FilterChipBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE283DF9BAFF4573A0617181 /* FilterChipBar.swift */; };
+		00109B2972C9C5EC5C81D71F /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818DA99E99D2ED7B52A7D805 /* FlowLayout.swift */; };
+		DDE2F3BFFC9E35A92212F02C /* GlassTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DE435304D2C824E38DF8E7 /* GlassTabBar.swift */; };
+		9E0033D24F10D374B8C2B8F4 /* JobNotificationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD593FD8F35A749C3B0C65E /* JobNotificationCard.swift */; };
+		1C6A22058D9382446D0A4EFC /* NotificationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEC5CAEE4160A9A1EC4A708 /* NotificationStack.swift */; };
+		C04E63D383FFC9C41F921368 /* StateViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAF47016D265A4524026268 /* StateViews.swift */; };
+		181078575174948487EBDCDD /* AuroraBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B2418222208335AA0C7FE /* AuroraBackground.swift */; };
+		1A73D050FC82C77975DA807E /* GlassStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24F274D5B4FA95A8A92B118 /* GlassStyle.swift */; };
+		C2A937B749FD648D2E114C6B /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC339884EAADBA9D6040F33 /* Haptics.swift */; };
+		D8CA03456164F937F64758B8 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4AB52979A12C235FD036A7 /* Theme.swift */; };
+		7103E050571E4F343269D1E6 /* CompanyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3441C75C6172D570BE6324B /* CompanyView.swift */; };
+		7BB37F6CBA76FC465AEC1C8F /* JobDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2E98F9C3B276C8466AC105 /* JobDetailView.swift */; };
+		4AE35CA964E028F098A7AE67 /* IncomingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818B2476F3A013B55713725F /* IncomingView.swift */; };
+		AB8AAD179745028337210068 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A641DDDC0A1DC47E3C4E20D0 /* HomeView.swift */; };
+		E97A01C86DF710BE5B5F734A /* SearchSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F409B086DFB112CD3D9FE /* SearchSheet.swift */; };
+		330D2B398F322865220E7429 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFAAFDC411DB4C808C9C2E6 /* OnboardingView.swift */; };
+		3201337537DBBEAA0FF8A39F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FFEFF72CA570400D89FB0F /* ProfileView.swift */; };
+		E535482673A1AD9C81EFB7C4 /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D1D00830D280F8009848B8 /* SavedView.swift */; };
+		51DAAF6604BA928EEDA501FB /* JobPulseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC7B1BEAED263D248D931B /* JobPulseApp.swift */; };
+		22C4920B45A8F66266D1556B /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9BA629BF9EEF2BAC8A0FE7 /* Job.swift */; };
+		A586E7511380EB156F4E047B /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500CB0D3AAD33E9A4FBFCD6E /* SampleData.swift */; };
+		D9126C376B7131F42B15CE03 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638E290E4870EFDCFDFD8F46 /* APIClient.swift */; };
+		7188F82765D3E41AA2B2A9D1 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1013AD97D14864A4A57848DA /* RootView.swift */; };
+		41687C891E751A5E2507D6A4 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C864041384940BDB975EE686 /* AppRouter.swift */; };
+		F3D062E56505467826640B49 /* JobStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230D774C6F689D5EC92E6542 /* JobStore.swift */; };
+		E17C4136FBB191C004A69E4F /* PreferencesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A19B98A4B6AB2AA46B311D /* PreferencesStore.swift */; };
+		CA1C45F3CFD999A62A614E2F /* PushManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1DF8149CBBA176268C9337 /* PushManager.swift */; };
+		1311254CF34C058C477F88F7 /* SavedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD2BB2D7F3F284557FA62C /* SavedStore.swift */; };
+		9364C1D896931DC2E537BEDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 750DE25A1FA2D448224C9866 /* Assets.xcassets */; };
+		84A2DA247E5C5594A8BFA130 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6E36ABB59C28DB7D6C8073 /* NotificationService.swift */; };
+		0FFE60351C712B365D77A757 /* JobPulseNotificationService.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7047F4EED7EB8AA950B7B739 /* JobPulseNotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1A0000000000000000000041 /* PBXContainerItemProxy */ = {
+		58C364AD35B1BAE9AFC2150A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1A0000000000000000000001 /* Project object */;
+			containerPortal = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1A0000000000000000000020;
+			remoteGlobalIDString = E785697E802C9F2C9FB6A247;
 			remoteInfo = JobPulseNotificationService;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		1A0000000000000000000015 /* Embed Foundation Extensions */ = {
+		7958CD235BDAF41460C0BC36 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				1A0000000000000000000040 /* JobPulseNotificationService.appex in Embed Foundation Extensions */,
+				0FFE60351C712B365D77A757 /* JobPulseNotificationService.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,32 +66,53 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1A0000000000000000000011 /* JobPulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobPulse.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A0000000000000000000021 /* JobPulseNotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = JobPulseNotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C953F61B83AE4343BD1AECC3 /* CompanyAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyAvatar.swift; sourceTree = "<group>"; };
+		FE283DF9BAFF4573A0617181 /* FilterChipBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterChipBar.swift; sourceTree = "<group>"; };
+		818DA99E99D2ED7B52A7D805 /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
+		91DE435304D2C824E38DF8E7 /* GlassTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassTabBar.swift; sourceTree = "<group>"; };
+		4DD593FD8F35A749C3B0C65E /* JobNotificationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobNotificationCard.swift; sourceTree = "<group>"; };
+		8DEC5CAEE4160A9A1EC4A708 /* NotificationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationStack.swift; sourceTree = "<group>"; };
+		EEAF47016D265A4524026268 /* StateViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateViews.swift; sourceTree = "<group>"; };
+		8D4B2418222208335AA0C7FE /* AuroraBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuroraBackground.swift; sourceTree = "<group>"; };
+		D24F274D5B4FA95A8A92B118 /* GlassStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassStyle.swift; sourceTree = "<group>"; };
+		4BC339884EAADBA9D6040F33 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		3B4AB52979A12C235FD036A7 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		F3441C75C6172D570BE6324B /* CompanyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyView.swift; sourceTree = "<group>"; };
+		DF2E98F9C3B276C8466AC105 /* JobDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailView.swift; sourceTree = "<group>"; };
+		818B2476F3A013B55713725F /* IncomingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingView.swift; sourceTree = "<group>"; };
+		A641DDDC0A1DC47E3C4E20D0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A67F409B086DFB112CD3D9FE /* SearchSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSheet.swift; sourceTree = "<group>"; };
+		6FFAAFDC411DB4C808C9C2E6 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		52FFEFF72CA570400D89FB0F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		76D1D00830D280F8009848B8 /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
+		AABC7B1BEAED263D248D931B /* JobPulseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPulseApp.swift; sourceTree = "<group>"; };
+		1A9BA629BF9EEF2BAC8A0FE7 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		500CB0D3AAD33E9A4FBFCD6E /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		638E290E4870EFDCFDFD8F46 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		1013AD97D14864A4A57848DA /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		C864041384940BDB975EE686 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		230D774C6F689D5EC92E6542 /* JobStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobStore.swift; sourceTree = "<group>"; };
+		90A19B98A4B6AB2AA46B311D /* PreferencesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesStore.swift; sourceTree = "<group>"; };
+		5E1DF8149CBBA176268C9337 /* PushManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushManager.swift; sourceTree = "<group>"; };
+		2AFD2BB2D7F3F284557FA62C /* SavedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedStore.swift; sourceTree = "<group>"; };
+		7D6E36ABB59C28DB7D6C8073 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		750DE25A1FA2D448224C9866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7ECEBEA9B3C21936C5FB92B /* JobPulse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = JobPulse-Info.plist; sourceTree = "<group>"; };
+		BEAA07A553535FEF422869EB /* JobPulse.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JobPulse.entitlements; sourceTree = "<group>"; };
+		B526A408B951BAF4F27C3E42 /* NotificationService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = NotificationService-Info.plist; sourceTree = "<group>"; };
+		3B1176DCAA2F53C3A54F416B /* JobPulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobPulse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7047F4EED7EB8AA950B7B739 /* JobPulseNotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = JobPulseNotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		1A0000000000000000000016 /* JobPulse */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = JobPulse;
-			sourceTree = "<group>";
-		};
-		1A0000000000000000000026 /* JobPulseNotificationService */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = JobPulseNotificationService;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
-		1A0000000000000000000013 /* Frameworks */ = {
+		096632D2355F37DE0C779591 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A0000000000000000000023 /* Frameworks */ = {
+		82CE6C2EE0606459D1403CF6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -70,117 +122,270 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A0000000000000000000002 = {
+		2B731CEFC6751AAE0EC69B98 = {
 			isa = PBXGroup;
 			children = (
-				1A0000000000000000000016 /* JobPulse */,
-				1A0000000000000000000026 /* JobPulseNotificationService */,
-				1A0000000000000000000003 /* Products */,
+				708844DF4706134F211FB87D /* Config */,
+				DBA6B6B2B23DAB54027B0837 /* JobPulse */,
+				1684BB9B30DA60D234060C4B /* JobPulseNotificationService */,
+				86024CAD1E83101D97359D73 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1A0000000000000000000003 /* Products */ = {
+		86024CAD1E83101D97359D73 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A0000000000000000000011 /* JobPulse.app */,
-				1A0000000000000000000021 /* JobPulseNotificationService.appex */,
+				3B1176DCAA2F53C3A54F416B /* JobPulse.app */,
+				7047F4EED7EB8AA950B7B739 /* JobPulseNotificationService.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		708844DF4706134F211FB87D /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F7ECEBEA9B3C21936C5FB92B /* JobPulse-Info.plist */,
+				BEAA07A553535FEF422869EB /* JobPulse.entitlements */,
+				B526A408B951BAF4F27C3E42 /* NotificationService-Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		DBA6B6B2B23DAB54027B0837 /* JobPulse */ = {
+			isa = PBXGroup;
+			children = (
+				CD4B628EAD991C5FE0794D1A /* Components */,
+				B8A99FE08AB00A2102115ABC /* Design */,
+				4C0D8EF54A09D5989624CD29 /* Features */,
+				8FC37556F47203F195FA38AF /* Models */,
+				BC8EC920D1FFAC79B949BBD8 /* Networking */,
+				1D64E8189A3003C088AE0588 /* Resources */,
+				A00591FF7B965C53CAD69514 /* Store */,
+				AABC7B1BEAED263D248D931B /* JobPulseApp.swift */,
+				1013AD97D14864A4A57848DA /* RootView.swift */,
+			);
+			path = JobPulse;
+			sourceTree = "<group>";
+		};
+		CD4B628EAD991C5FE0794D1A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C953F61B83AE4343BD1AECC3 /* CompanyAvatar.swift */,
+				FE283DF9BAFF4573A0617181 /* FilterChipBar.swift */,
+				818DA99E99D2ED7B52A7D805 /* FlowLayout.swift */,
+				91DE435304D2C824E38DF8E7 /* GlassTabBar.swift */,
+				4DD593FD8F35A749C3B0C65E /* JobNotificationCard.swift */,
+				8DEC5CAEE4160A9A1EC4A708 /* NotificationStack.swift */,
+				EEAF47016D265A4524026268 /* StateViews.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B8A99FE08AB00A2102115ABC /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				8D4B2418222208335AA0C7FE /* AuroraBackground.swift */,
+				D24F274D5B4FA95A8A92B118 /* GlassStyle.swift */,
+				4BC339884EAADBA9D6040F33 /* Haptics.swift */,
+				3B4AB52979A12C235FD036A7 /* Theme.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		4C0D8EF54A09D5989624CD29 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				BFE67800A431D968F42864F5 /* Detail */,
+				5E4CD0EDC90543E5FEF1877D /* Feed */,
+				4EF8F4334CC7A24F6F693066 /* Home */,
+				E8210E66428C7844089A7F5A /* Onboarding */,
+				ED3B7A2CAAB5E77B02340336 /* Profile */,
+				CEA25E1FA66E29B5EF78DF95 /* Saved */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		BFE67800A431D968F42864F5 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				F3441C75C6172D570BE6324B /* CompanyView.swift */,
+				DF2E98F9C3B276C8466AC105 /* JobDetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		5E4CD0EDC90543E5FEF1877D /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				818B2476F3A013B55713725F /* IncomingView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		4EF8F4334CC7A24F6F693066 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A641DDDC0A1DC47E3C4E20D0 /* HomeView.swift */,
+				A67F409B086DFB112CD3D9FE /* SearchSheet.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E8210E66428C7844089A7F5A /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				6FFAAFDC411DB4C808C9C2E6 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		ED3B7A2CAAB5E77B02340336 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				52FFEFF72CA570400D89FB0F /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		CEA25E1FA66E29B5EF78DF95 /* Saved */ = {
+			isa = PBXGroup;
+			children = (
+				76D1D00830D280F8009848B8 /* SavedView.swift */,
+			);
+			path = Saved;
+			sourceTree = "<group>";
+		};
+		8FC37556F47203F195FA38AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A9BA629BF9EEF2BAC8A0FE7 /* Job.swift */,
+				500CB0D3AAD33E9A4FBFCD6E /* SampleData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BC8EC920D1FFAC79B949BBD8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				638E290E4870EFDCFDFD8F46 /* APIClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1D64E8189A3003C088AE0588 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				750DE25A1FA2D448224C9866 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A00591FF7B965C53CAD69514 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				C864041384940BDB975EE686 /* AppRouter.swift */,
+				230D774C6F689D5EC92E6542 /* JobStore.swift */,
+				90A19B98A4B6AB2AA46B311D /* PreferencesStore.swift */,
+				5E1DF8149CBBA176268C9337 /* PushManager.swift */,
+				2AFD2BB2D7F3F284557FA62C /* SavedStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		1684BB9B30DA60D234060C4B /* JobPulseNotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				7D6E36ABB59C28DB7D6C8073 /* NotificationService.swift */,
+			);
+			path = JobPulseNotificationService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1A0000000000000000000010 /* JobPulse */ = {
+		A82A4FDBCC951576DCFFC4A8 /* JobPulse */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A0000000000000000000017 /* Build configuration list for PBXNativeTarget "JobPulse" */;
+			buildConfigurationList = 0D23AB2CFC9FB3082180BABD /* Build configuration list for PBXNativeTarget "JobPulse" */;
 			buildPhases = (
-				1A0000000000000000000012 /* Sources */,
-				1A0000000000000000000013 /* Frameworks */,
-				1A0000000000000000000014 /* Resources */,
-				1A0000000000000000000015 /* Embed Foundation Extensions */,
+				AF31B1F2E648A23F4B84ADA7 /* Sources */,
+				096632D2355F37DE0C779591 /* Frameworks */,
+				A31D787413E42AE181EB9799 /* Resources */,
+				7958CD235BDAF41460C0BC36 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1A0000000000000000000042 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				1A0000000000000000000016 /* JobPulse */,
+				6E218C250875DB5488871CB4 /* PBXTargetDependency */,
 			);
 			name = JobPulse;
 			productName = JobPulse;
-			productReference = 1A0000000000000000000011 /* JobPulse.app */;
+			productReference = 3B1176DCAA2F53C3A54F416B /* JobPulse.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1A0000000000000000000020 /* JobPulseNotificationService */ = {
+		E785697E802C9F2C9FB6A247 /* JobPulseNotificationService */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A0000000000000000000027 /* Build configuration list for PBXNativeTarget "JobPulseNotificationService" */;
+			buildConfigurationList = 47D51C2AB27BA6F82ED3A02B /* Build configuration list for PBXNativeTarget "JobPulseNotificationService" */;
 			buildPhases = (
-				1A0000000000000000000022 /* Sources */,
-				1A0000000000000000000023 /* Frameworks */,
-				1A0000000000000000000024 /* Resources */,
+				A79838949787DF946F27C484 /* Sources */,
+				82CE6C2EE0606459D1403CF6 /* Frameworks */,
+				BE8B0F6CB7377D7C6D4488B2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				1A0000000000000000000026 /* JobPulseNotificationService */,
-			);
 			name = JobPulseNotificationService;
 			productName = JobPulseNotificationService;
-			productReference = 1A0000000000000000000021 /* JobPulseNotificationService.appex */;
+			productReference = 7047F4EED7EB8AA950B7B739 /* JobPulseNotificationService.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1A0000000000000000000001 /* Project object */ = {
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1600;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					1A0000000000000000000010 = {
-						CreatedOnToolsVersion = 16.0;
+					A82A4FDBCC951576DCFFC4A8 = {
+						CreatedOnToolsVersion = 15.0;
 					};
-					1A0000000000000000000020 = {
-						CreatedOnToolsVersion = 16.0;
+					E785697E802C9F2C9FB6A247 = {
+						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = 1A0000000000000000000030 /* Build configuration list for PBXProject "JobPulse" */;
-			compatibilityVersion = "Xcode 15.0";
+			buildConfigurationList = B417DD1A170C27D6DF406627 /* Build configuration list for PBXProject "JobPulse" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 1A0000000000000000000002;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
-			productRefGroup = 1A0000000000000000000003 /* Products */;
+			mainGroup = 2B731CEFC6751AAE0EC69B98;
+			productRefGroup = 86024CAD1E83101D97359D73 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1A0000000000000000000010 /* JobPulse */,
-				1A0000000000000000000020 /* JobPulseNotificationService */,
+				A82A4FDBCC951576DCFFC4A8 /* JobPulse */,
+				E785697E802C9F2C9FB6A247 /* JobPulseNotificationService */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1A0000000000000000000014 /* Resources */ = {
+		A31D787413E42AE181EB9799 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9364C1D896931DC2E537BEDD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A0000000000000000000024 /* Resources */ = {
+		BE8B0F6CB7377D7C6D4488B2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -190,36 +395,65 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1A0000000000000000000012 /* Sources */ = {
+		AF31B1F2E648A23F4B84ADA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A56557EA621AB4714FE7E28 /* CompanyAvatar.swift in Sources */,
+				A3322C7769601D5CE2919056 /* FilterChipBar.swift in Sources */,
+				00109B2972C9C5EC5C81D71F /* FlowLayout.swift in Sources */,
+				DDE2F3BFFC9E35A92212F02C /* GlassTabBar.swift in Sources */,
+				9E0033D24F10D374B8C2B8F4 /* JobNotificationCard.swift in Sources */,
+				1C6A22058D9382446D0A4EFC /* NotificationStack.swift in Sources */,
+				C04E63D383FFC9C41F921368 /* StateViews.swift in Sources */,
+				181078575174948487EBDCDD /* AuroraBackground.swift in Sources */,
+				1A73D050FC82C77975DA807E /* GlassStyle.swift in Sources */,
+				C2A937B749FD648D2E114C6B /* Haptics.swift in Sources */,
+				D8CA03456164F937F64758B8 /* Theme.swift in Sources */,
+				7103E050571E4F343269D1E6 /* CompanyView.swift in Sources */,
+				7BB37F6CBA76FC465AEC1C8F /* JobDetailView.swift in Sources */,
+				4AE35CA964E028F098A7AE67 /* IncomingView.swift in Sources */,
+				AB8AAD179745028337210068 /* HomeView.swift in Sources */,
+				E97A01C86DF710BE5B5F734A /* SearchSheet.swift in Sources */,
+				330D2B398F322865220E7429 /* OnboardingView.swift in Sources */,
+				3201337537DBBEAA0FF8A39F /* ProfileView.swift in Sources */,
+				E535482673A1AD9C81EFB7C4 /* SavedView.swift in Sources */,
+				51DAAF6604BA928EEDA501FB /* JobPulseApp.swift in Sources */,
+				22C4920B45A8F66266D1556B /* Job.swift in Sources */,
+				A586E7511380EB156F4E047B /* SampleData.swift in Sources */,
+				D9126C376B7131F42B15CE03 /* APIClient.swift in Sources */,
+				7188F82765D3E41AA2B2A9D1 /* RootView.swift in Sources */,
+				41687C891E751A5E2507D6A4 /* AppRouter.swift in Sources */,
+				F3D062E56505467826640B49 /* JobStore.swift in Sources */,
+				E17C4136FBB191C004A69E4F /* PreferencesStore.swift in Sources */,
+				CA1C45F3CFD999A62A614E2F /* PushManager.swift in Sources */,
+				1311254CF34C058C477F88F7 /* SavedStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A0000000000000000000022 /* Sources */ = {
+		A79838949787DF946F27C484 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A2DA247E5C5594A8BFA130 /* NotificationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1A0000000000000000000042 /* PBXTargetDependency */ = {
+		6E218C250875DB5488871CB4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1A0000000000000000000020 /* JobPulseNotificationService */;
-			targetProxy = 1A0000000000000000000041 /* PBXContainerItemProxy */;
+			target = E785697E802C9F2C9FB6A247 /* JobPulseNotificationService */;
+			targetProxy = 58C364AD35B1BAE9AFC2150A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1A0000000000000000000031 /* Debug */ = {
+		0CB4A27DEF59A60DC40AB7EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -231,7 +465,6 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -240,25 +473,22 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		1A0000000000000000000032 /* Release */ = {
+		A24FAC59E748C908911BD99C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -270,34 +500,31 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		1A0000000000000000000018 /* Debug */ = {
+		913D1AB2DDCC45257257A9C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = JobPulse/JobPulse.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Config/JobPulse.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = JobPulse/Info.plist;
+				INFOPLIST_FILE = "Config/JobPulse-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -315,18 +542,17 @@
 			};
 			name = Debug;
 		};
-		1A0000000000000000000019 /* Release */ = {
+		EA1E36DB213BB26185D67CFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = JobPulse/JobPulse.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Config/JobPulse.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = JobPulse/Info.plist;
+				INFOPLIST_FILE = "Config/JobPulse-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -344,13 +570,13 @@
 			};
 			name = Release;
 		};
-		1A0000000000000000000028 /* Debug */ = {
+		B4EB25009764947888A252D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = JobPulseNotificationService/Info.plist;
+				INFOPLIST_FILE = "Config/NotificationService-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "JobPulse Notification Service";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -367,13 +593,13 @@
 			};
 			name = Debug;
 		};
-		1A0000000000000000000029 /* Release */ = {
+		A0F8ADD9BE63C9F6C8AF4805 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = JobPulseNotificationService/Info.plist;
+				INFOPLIST_FILE = "Config/NotificationService-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "JobPulse Notification Service";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -393,34 +619,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A0000000000000000000030 /* Build configuration list for PBXProject "JobPulse" */ = {
+		B417DD1A170C27D6DF406627 /* Build configuration list for PBXProject "JobPulse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A0000000000000000000031 /* Debug */,
-				1A0000000000000000000032 /* Release */,
+				0CB4A27DEF59A60DC40AB7EF /* Debug */,
+				A24FAC59E748C908911BD99C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A0000000000000000000017 /* Build configuration list for PBXNativeTarget "JobPulse" */ = {
+		0D23AB2CFC9FB3082180BABD /* Build configuration list for PBXNativeTarget "JobPulse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A0000000000000000000018 /* Debug */,
-				1A0000000000000000000019 /* Release */,
+				913D1AB2DDCC45257257A9C5 /* Debug */,
+				EA1E36DB213BB26185D67CFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A0000000000000000000027 /* Build configuration list for PBXNativeTarget "JobPulseNotificationService" */ = {
+		47D51C2AB27BA6F82ED3A02B /* Build configuration list for PBXNativeTarget "JobPulseNotificationService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A0000000000000000000028 /* Debug */,
-				1A0000000000000000000029 /* Release */,
+				B4EB25009764947888A252D9 /* Debug */,
+				A0F8ADD9BE63C9F6C8AF4805 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1A0000000000000000000001 /* Project object */;
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
 }

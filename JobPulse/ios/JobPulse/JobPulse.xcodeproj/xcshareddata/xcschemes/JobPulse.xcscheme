@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1A0000000000000000000010"
+               BlueprintIdentifier = "A82A4FDBCC951576DCFFC4A8"
                BuildableName = "JobPulse.app"
                BlueprintName = "JobPulse"
                ReferencedContainer = "container:JobPulse.xcodeproj">
@@ -44,7 +44,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1A0000000000000000000010"
+            BlueprintIdentifier = "A82A4FDBCC951576DCFFC4A8"
             BuildableName = "JobPulse.app"
             BlueprintName = "JobPulse"
             ReferencedContainer = "container:JobPulse.xcodeproj">
@@ -61,7 +61,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1A0000000000000000000010"
+            BlueprintIdentifier = "A82A4FDBCC951576DCFFC4A8"
             BuildableName = "JobPulse.app"
             BlueprintName = "JobPulse"
             ReferencedContainer = "container:JobPulse.xcodeproj">

@@ -31,10 +31,13 @@ struct FlowLayout: Layout {
         var y = bounds.minY
 
         for row in rows {
-            var x: CGFloat = switch alignment {
-            case .center: bounds.minX + (bounds.width - row.width) / 2
-            case .trailing: bounds.maxX - row.width
-            default: bounds.minX
+            // `HorizontalAlignment` is a struct, not an enum, so this compares
+            // rather than pattern-matches.
+            var x = bounds.minX
+            if alignment == .center {
+                x = bounds.minX + (bounds.width - row.width) / 2
+            } else if alignment == .trailing {
+                x = bounds.maxX - row.width
             }
 
             for item in row.items {
