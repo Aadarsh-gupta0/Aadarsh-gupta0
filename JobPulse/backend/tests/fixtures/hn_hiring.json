@@ -1,0 +1,29 @@
+{
+  "nbPages": 1,
+  "hits": [
+    {
+      "objectID": "41111001",
+      "created_at_i": 1754790000,
+      "author": "founder1",
+      "comment_text": "Stellar Systems | Senior Flutter Engineer | Bengaluru, India | REMOTE | ₹30L - ₹50L<p>We build a cross-platform mobile app in Flutter and Dart used by two million people. You will own the rendering performance work.<p>Apply: https://stellar.example.com/careers/flutter"
+    },
+    {
+      "objectID": "41111002",
+      "created_at_i": 1754791000,
+      "author": "founder2",
+      "comment_text": "Palegrove | Product Designer | Remote (EU) | Full-time<p>End-to-end product design, user research and prototyping in Figma.<p>https://palegrove.example.com/jobs/product-designer"
+    },
+    {
+      "objectID": "41111003",
+      "created_at_i": 1754792000,
+      "author": "randomcommenter",
+      "comment_text": "Does anyone know if this thread is still active? I keep missing it."
+    },
+    {
+      "objectID": "41111004",
+      "created_at_i": 1754793000,
+      "author": "founder3",
+      "comment_text": "https://example.com | we are hiring lots of people, see the site"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 5551234,
+      "title": "Product Designer, Design Systems",
+      "updated_at": "2026-08-10T12:00:00-04:00",
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/5551234",
+      "location": { "name": "San Francisco, CA" },
+      "departments": [{ "id": 1, "name": "Design" }],
+      "offices": [{ "id": 9, "name": "San Francisco" }],
+      "content": "&lt;p&gt;Own our &lt;strong&gt;design system&lt;/strong&gt; end to end. You will define design tokens, run design critique and prototype in Figma.&lt;/p&gt;"
+    },
+    {
+      "id": 5551299,
+      "title": "Product Manager, Platform",
+      "updated_at": "2026-08-09T12:00:00-04:00",
+      "absolute_url": "https://boards.greenhouse.io/figma/jobs/5551299",
+      "location": { "name": "Remote - US" },
+      "departments": [{ "id": 2, "name": "Product" }],
+      "content": "&lt;p&gt;Work closely with designers and engineers on our platform roadmap.&lt;/p&gt;"
+    }
+  ],
+  "meta": { "total": 2 }
+}
